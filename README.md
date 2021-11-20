@@ -44,7 +44,8 @@ password: adminadmin
 
 - Retrieve all todos
  ```python
-    todos {
+query fetchAllTodos {
+  todos {
     success
     errors
     todos {
@@ -52,11 +53,11 @@ password: adminadmin
       description
       author
       status
-      dueDate
       id
     }
   }
 }
+
   ```
 - Retrieve todo with id 1
  ```python
