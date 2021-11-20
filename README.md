@@ -26,7 +26,11 @@ python3 -m virtualenv .venv
   $env:FLASK_APP = "main.py"
   set FLASK_APP=main.py
  ```
-4-Runninig the app
+4-move to the project root by
+ ```python
+  cd /TODO_APP
+ ```
+- Runninig the app
  ```python
   flask run
  ```
